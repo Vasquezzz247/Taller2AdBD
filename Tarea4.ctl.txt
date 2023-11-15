@@ -1,0 +1,11 @@
+-- archivo de control para EMPLEADO
+LOAD DATA
+INFILE 'C:\Users\aleja\Desktop\Taller2\Taller2AdBD\BancoDeDatos.txt'
+INTO TABLE EMPLEADO
+FIELDS TERMINATED BY ','
+
+-- archivo de control para ESTUDIANTE
+LOAD DATA
+INFILE 'ruta_del_archivo.txt'
+INTO TABLE ESTUDIANTE
+FIELDS TERMINATED BY ','
